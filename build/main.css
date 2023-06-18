@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 16px 0;
+  background-color: yellow;
+  text-align: center;
+  background-color: #1ac1ca;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 760px;
+}
+.form-container h2 {
+  font-size: pixelParaEm(48px);
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  max-width: 480px;
+  margin-top: 80px;
+}
+form label {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
+form input {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+form button {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #1ac1ca;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: rgb(8, 113, 134);
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

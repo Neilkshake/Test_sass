@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Descrição do meu projeto",
   "scripts": {
-    "sass": "sass"
+    "sass": "sass source/main.scss build/main.css --watch"
   },
   "devDependencies": {
     "sass": "^1.62.1"
